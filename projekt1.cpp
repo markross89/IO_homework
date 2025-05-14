@@ -25,6 +25,10 @@ void isPrime(int n) {
 
 int main()
 {
+    int n;
+    cout << "Enter a number...";
+    cin >> n;
+    isPrime(n);
 
     return 0;
 }
